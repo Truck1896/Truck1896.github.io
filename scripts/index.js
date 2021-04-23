@@ -14,3 +14,5 @@ function onTabClicked(evt, targetName) {
   document.getElementById(targetName).style.display = 'block';
   evt.currentTarget.className += ' active';
 }
+
+document.getElementById('defaultOpen').click();
