@@ -6,7 +6,7 @@ function onTabClicked(evt, targetName) {
     tabContent[i].style.display = 'none';
   }
   
-  tabLinks = document.getElementsByClassName('tablinks');
+  tabLinks = document.getElementsByClassName('tablink');
   for (let i = 0; i < tabLinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(' active', '');
   }
