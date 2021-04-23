@@ -10,7 +10,7 @@ body {
   background-color: #f1f1f1;
 }
 
-.tab a {
+.tab button {
   background-color: inherit;
   float: left;
   border: none;
@@ -20,11 +20,11 @@ body {
   transition: 0.3s;
 }
 
-.tab a:hover {
+.tab button:hover {
   background-color: #ddd;
 }
 
-.tab a:active {
+.tab button:active {
   background-color: #ccc;
 }
 
