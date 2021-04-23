@@ -15,6 +15,7 @@ body {
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
+  margin: 0;
   transition: 0.3s;
   font-size: 17px;
 }
